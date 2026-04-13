@@ -1,1 +1,0 @@
-The game Tomato-Stocks and the title Tomato-Stocks is owned by Tomako studios. You as the user are not allowed to copy and export Tomato-Stocks without consent from Tomako Studios if we discover that you have done this we can and will remove the game software from your device.
