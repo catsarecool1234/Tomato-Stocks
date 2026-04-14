@@ -179,7 +179,6 @@ while True:
         print("buy fertilizer - purchases fertilizer (when in shop)")
         print("buy grow light - purchases grow light (when in shop)")
         print("plant tomatoes - plants tomatoes using available seeds")
-        print("show_debug - displays all game variables for debugging")
         print("clear - clears the screen")
         #print("export - exports your progress to a file")
         #print("import - imports saved progress from a file")
@@ -285,7 +284,7 @@ while True:
             pass   
             if user_input == ("buy grow light"):   # TODO/FIXME: Make it so you can only buy grow light if you have a house
                 print("Processing...")
-                if grow_light_stock > 1:        
+                if grow_light_stock >= 1:        
                     if money >= 500:
                         money -= 500
                         has_grow_light = True
