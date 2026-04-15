@@ -104,6 +104,7 @@ def day_cycle():
         print("\nA new day has started!")
         print(f"You are now on day: {current_day}")
         print("Press 'enter' to continue.")  
+        fertilizer_stock = 10
 pass
 
 #script for tomato growth (threaded)
