@@ -322,7 +322,7 @@ while True:
                     tomato_seeds = 0
             else:
                 # Automatic planting if not enough fertilizer for all seeds
-                print(f"Planted {tomato_seeds} tomatoes (not enough fertilizer for all)")
+                print(f"Planted {tomato_seeds} tomatoes")
                 tomatoes_currently_growing = True
                 amount_of_tomatoes_growing = tomato_seeds
                 tomato_seeds = 0
